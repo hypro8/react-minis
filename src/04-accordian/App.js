@@ -5,7 +5,7 @@ import questions from "./data";
 export default function Accordian() {
   console.log(questions);
 
-  // WRONG: functions can not be React children
+  // !WRONG: functions can not be React children
   // const listQuestions = () => {
   //   questions.map((q) => <Question singleQuestion={q} />);
   // };
@@ -18,6 +18,7 @@ export default function Accordian() {
           {questions.map((question) => (
             <SingleQuestion key={question.id} {...question} />
           ))}
+          questions.map((question) => ())
         </section>
       </div>
     </main>
