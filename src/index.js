@@ -11,9 +11,11 @@ import ReactDOM from "react-dom";
 // import "./03-Reviews/index.css";
 // import Accordian from "./04-accordian/App";
 // import "./04-accordian/index.css";
+// import Menu from "./05-Menu/src/App";
+// import "./05-Menu/src/index.css";
 
-import Menu from "./05-Menu/src/App";
-import "./05-Menu/src/index.css";
+import TabsApp from "./06-tabs/App";
+import "./06-tabs/index.css";
 
 function App() {
   return (
@@ -22,7 +24,8 @@ function App() {
       {/* <ToursApp /> */}
       {/* <ReviewsApp /> */}
       {/* <Accordian /> */}
-      <Menu />
+      {/* <Menu /> */}
+      <TabsApp />
     </>
   );
 }
