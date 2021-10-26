@@ -14,8 +14,15 @@ import ReactDOM from "react-dom";
 // import Menu from "./05-Menu/src/App";
 // import "./05-Menu/src/index.css";
 
-import TabsApp from "./06-tabs/App";
-import "./06-tabs/index.css";
+// import TabsApp from "./06-tabs/App";
+// import "./06-tabs/index.css";
+
+// import "./07-slicer/index.css";
+// import ReviewSlicerApp from "./07-slicer/App";
+import ReviewSlicerApp_2 from "./07-slicer/App2";
+
+import "./08-Lorem-Ipsum/index.css";
+import LoremIpsum from "./08-Lorem-Ipsum/App";
 
 function App() {
   return (
@@ -25,7 +32,10 @@ function App() {
       {/* <ReviewsApp /> */}
       {/* <Accordian /> */}
       {/* <Menu /> */}
-      <TabsApp />
+      {/* <TabsApp /> */}
+      {/* <ReviewSlicerApp /> */}
+      {/* <ReviewSlicerApp_2 /> */}
+      <LoremIpsum />
     </>
   );
 }
