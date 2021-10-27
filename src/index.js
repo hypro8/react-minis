@@ -19,10 +19,13 @@ import ReactDOM from "react-dom";
 
 // import "./07-slicer/index.css";
 // import ReviewSlicerApp from "./07-slicer/App";
-import ReviewSlicerApp_2 from "./07-slicer/App2";
+// import ReviewSlicerApp_2 from "./07-slicer/App2";
 
-import "./08-Lorem-Ipsum/index.css";
-import LoremIpsum from "./08-Lorem-Ipsum/App";
+// import "./08-Lorem-Ipsum/index.css";
+// import LoremIpsum from "./08-Lorem-Ipsum/App";
+
+import "./09-color-generator/index.css";
+import ColorGenerator from "./09-color-generator/App";
 
 function App() {
   return (
@@ -35,7 +38,8 @@ function App() {
       {/* <TabsApp /> */}
       {/* <ReviewSlicerApp /> */}
       {/* <ReviewSlicerApp_2 /> */}
-      <LoremIpsum />
+      {/* <LoremIpsum /> */}
+      <ColorGenerator />
     </>
   );
 }
