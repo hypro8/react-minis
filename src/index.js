@@ -24,8 +24,14 @@ import ReactDOM from "react-dom";
 // import "./08-Lorem-Ipsum/index.css";
 // import LoremIpsum from "./08-Lorem-Ipsum/App";
 
-import "./09-color-generator/index.css";
-import ColorGenerator from "./09-color-generator/App";
+// import "./09-color-generator/index.css";
+// import ColorGenerator from "./09-color-generator/App";
+
+// import "./10-grocery-bud/index.css";
+// import GroceryBudApp from "./10-grocery-bud/App";
+
+import "./11-navbar/index.css";
+import NavbarApp from "./11-navbar/App";
 
 function App() {
   return (
@@ -39,7 +45,9 @@ function App() {
       {/* <ReviewSlicerApp /> */}
       {/* <ReviewSlicerApp_2 /> */}
       {/* <LoremIpsum /> */}
-      <ColorGenerator />
+      {/* <ColorGenerator /> */}
+      {/* <GroceryBudApp /> */}
+      <NavbarApp />
     </>
   );
 }
