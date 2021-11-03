@@ -30,8 +30,16 @@ import ReactDOM from "react-dom";
 // import "./10-grocery-bud/index.css";
 // import GroceryBudApp from "./10-grocery-bud/App";
 
-import "./11-navbar/index.css";
-import NavbarApp from "./11-navbar/App";
+// import "./11-navbar/index.css";
+// import NavbarApp from "./11-navbar/App";
+
+// import "./12-sidebar-modal/index.css";
+// import SideBarModal from "./12-sidebar-modal/App";
+// import { AppProvider } from "./12-sidebar-modal/Context";
+
+import "./13-Stripe-submenus/index.css";
+import StripeApp from "./13-Stripe-submenus/App";
+import { AppProvider } from "./13-Stripe-submenus/Context";
 
 function App() {
   return (
@@ -47,14 +55,18 @@ function App() {
       {/* <LoremIpsum /> */}
       {/* <ColorGenerator /> */}
       {/* <GroceryBudApp /> */}
-      <NavbarApp />
+      {/* <NavbarApp /> */}
+      {/* <SideBarModal /> */}
+      <StripeApp />
     </>
   );
 }
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppProvider>
+      <App />
+    </AppProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
