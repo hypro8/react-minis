@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+
+// import CounterReducerApp from "./00 - playground/Counter_reducer";
+import TodoReducerApp from "./00 - playground/Todo_reducer";
 // import App from "./App";
 // import "./App.css";
 
@@ -37,13 +40,19 @@ import ReactDOM from "react-dom";
 // import SideBarModal from "./12-sidebar-modal/App";
 // import { AppProvider } from "./12-sidebar-modal/Context";
 
-import "./13-Stripe-submenus/index.css";
-import StripeApp from "./13-Stripe-submenus/App";
-import { AppProvider } from "./13-Stripe-submenus/Context";
+// import "./13-Stripe-submenus/index.css";
+// import StripeApp from "./13-Stripe-submenus/App";
+// import { AppProvider } from "./13-Stripe-submenus/Context";
+
+// import "./14-cart/index.css";
+import { AppProvider } from "./14-cart/context";
+// import CartApp from "./14-cart/App";
 
 function App() {
   return (
     <>
+      {/* <CounterReducerApp /> */}
+      <TodoReducerApp />
       {/* <BirthdayReminder /> */}
       {/* <ToursApp /> */}
       {/* <ReviewsApp /> */}
@@ -57,7 +66,8 @@ function App() {
       {/* <GroceryBudApp /> */}
       {/* <NavbarApp /> */}
       {/* <SideBarModal /> */}
-      <StripeApp />
+      {/* <StripeApp /> */}
+      {/* <CartApp /> */}
     </>
   );
 }
