@@ -1,10 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// import CounterReducerApp from "./00 - playground/Counter_reducer";
-import TodoReducerApp from "./00 - playground/Todo_reducer";
-// import App from "./App";
-// import "./App.css";
+// import CounterReducerApp from "./00-playground/Counter_reducer";
+// import TodoReducerApp from "./00-playground/Todo_reducer";
 
 // import BirthdayReminder from "./01-birthday-reminder/App";
 // import "./01-birthday-reminder/index.css";
@@ -44,15 +42,15 @@ import TodoReducerApp from "./00 - playground/Todo_reducer";
 // import StripeApp from "./13-Stripe-submenus/App";
 // import { AppProvider } from "./13-Stripe-submenus/Context";
 
-// import "./14-cart/index.css";
+import "./14-cart/index.css";
 import { AppProvider } from "./14-cart/context";
-// import CartApp from "./14-cart/App";
+import CartApp from "./14-cart/App";
 
 function App() {
   return (
     <>
       {/* <CounterReducerApp /> */}
-      <TodoReducerApp />
+      {/* <TodoReducerApp /> */}
       {/* <BirthdayReminder /> */}
       {/* <ToursApp /> */}
       {/* <ReviewsApp /> */}
@@ -67,7 +65,7 @@ function App() {
       {/* <NavbarApp /> */}
       {/* <SideBarModal /> */}
       {/* <StripeApp /> */}
-      {/* <CartApp /> */}
+      <CartApp />
     </>
   );
 }
