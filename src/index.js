@@ -42,9 +42,13 @@ import ReactDOM from "react-dom";
 // import StripeApp from "./13-Stripe-submenus/App";
 // import { AppProvider } from "./13-Stripe-submenus/Context";
 
-import "./14-cart/index.css";
-import { AppProvider } from "./14-cart/context";
-import CartApp from "./14-cart/App";
+// import "./14-cart/index.css";
+// import { AppProvider } from "./14-cart/context";
+// import CartApp from "./14-cart/App";
+
+import "./15-CocktailBar/index.css";
+import { AppProvider } from "./context";
+import CocktailApp from "./15-CocktailBar/App";
 
 function App() {
   return (
@@ -65,7 +69,8 @@ function App() {
       {/* <NavbarApp /> */}
       {/* <SideBarModal /> */}
       {/* <StripeApp /> */}
-      <CartApp />
+      {/* <CartApp /> */}
+      <CocktailApp />
     </>
   );
 }
